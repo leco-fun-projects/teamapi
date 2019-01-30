@@ -11,5 +11,7 @@ data class Skill(
 //    @Id
 //    @GeneratedValue(strategy = GenerationType.AUTO)
     val id: UUID,
-    val name: String
+    val knowledge: Knowledge,
+    val member: Member?,
+    val skillMap: SkillMap
 )

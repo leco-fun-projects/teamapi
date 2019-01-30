@@ -11,6 +11,7 @@ data class Project(
     val name: String,
     val repository: String,
     val documentation: String,
+    val skill: List<Skill>?,
 //    @ManyToMany(cascade = [CascadeType.ALL])
 //    @JoinTable(
 //        name = "project_member",
