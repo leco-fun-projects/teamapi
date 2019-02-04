@@ -14,8 +14,6 @@ repositories {
 
 dependencies {
     implementation 'io.javalin:javalin:2.6.0'
-    implementation 'org.hibernate:hibernate-annotations:3.5.6-Final'
-    implementation 'org.hibernate:hibernate-core:5.4.0.Final'
     api "org.slf4j:slf4j-simple:1.7.25"
     api "com.fasterxml.jackson.core:jackson-databind:2.9.8"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
