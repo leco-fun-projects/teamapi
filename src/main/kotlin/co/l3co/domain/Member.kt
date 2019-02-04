@@ -1,7 +1,6 @@
 package co.l3co.domain
 
 import java.util.*
-import javax.persistence.*
 
 data class Member(
     val id: UUID,
